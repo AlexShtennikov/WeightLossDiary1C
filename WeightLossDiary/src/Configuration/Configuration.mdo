@@ -41,6 +41,8 @@
   <catalogs>Catalog.Продукты</catalogs>
   <documents>Document.Питание</documents>
   <enums>Enum.ВремяДня</enums>
+  <reports>Report.ДневникПитанияВертикал</reports>
+  <reports>Report.ДневникПитанияГоризонт</reports>
   <informationRegisters>InformationRegister.Вес</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Калории</accumulationRegisters>
 </mdclass:Configuration>
