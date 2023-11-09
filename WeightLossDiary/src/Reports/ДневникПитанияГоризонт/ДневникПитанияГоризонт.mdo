@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6240092e-7d13-4c48-9243-5b6ca587a1cc">
+  <producedTypes>
+    <objectType typeId="a6a57f14-9347-4ee2-a034-33e7ccdaeff4" valueTypeId="a0d5c229-0279-46db-9952-e1fda30348bd"/>
+    <managerType typeId="6b3ab547-3cb9-4a46-9205-71326f2dd947" valueTypeId="27fc2c96-d248-428d-827e-7f7ad87476d6"/>
+  </producedTypes>
+  <name>ДневникПитанияГоризонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дневник питания горизонт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a9ae3ece-efaf-4d8f-9f34-b08a39911a64">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

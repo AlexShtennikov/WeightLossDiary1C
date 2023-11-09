@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6961dd1e-0b1b-4637-94a0-ec4946a1cc57">
+  <producedTypes>
+    <objectType typeId="913219b7-9ad8-4c64-90f1-a13c92ad024a" valueTypeId="6537998c-8cbc-4dc5-b348-a4a418137837"/>
+    <managerType typeId="eda18b59-d59f-4b7d-8c4a-fa91d67503d3" valueTypeId="575d8d19-1408-4f3e-bbe9-f240dd732097"/>
+  </producedTypes>
+  <name>ДневникПитанияВертикал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дневник питания вертикал</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="8522632b-b13c-4bf3-be4e-2b8e2c371789">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
