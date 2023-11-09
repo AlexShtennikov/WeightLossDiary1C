@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fd70eaa-6b7e-4934-9ce9-017aed4147e0">
+  <producedTypes>
+    <objectType typeId="fe2b6299-f6b4-46a0-9a8b-c13d94cfa5c1" valueTypeId="d71425a0-6501-4d42-a6a9-8cd4d6ac0a63"/>
+    <refType typeId="0d985607-e1b7-43db-929e-2d7ef4bc4267" valueTypeId="b9e884a9-327c-48bf-ab23-b3d7c2b06c86"/>
+    <selectionType typeId="85ef92a4-c79c-4454-aba8-3483334c324e" valueTypeId="34e71abb-aabf-4dbe-af9b-132365918eb2"/>
+    <listType typeId="af48baea-ea57-4c2e-92c0-1b9a4fa2f647" valueTypeId="49a2446a-6613-4a3d-b511-4d8203267a97"/>
+    <managerType typeId="4de78135-f077-41fe-a9b2-7f7f08c34480" valueTypeId="f0573f74-f1e6-4ea5-bd01-7b0941cfa640"/>
+  </producedTypes>
+  <name>Продукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Продукты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Продукты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Продукт</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Продукты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="07391cca-a06d-4d86-b900-ca0ef61f39b0">
+    <name>КалорийностьПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калорийность продукта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc6a837a-b4b5-4ba2-a1af-5670fa15efbf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

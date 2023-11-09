@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44c00118-bca1-432a-bfea-bd4a6727cf16">
+  <producedTypes>
+    <selectionType typeId="e53972ec-32db-4893-8496-372ac9fb4060" valueTypeId="26930b0e-ce79-4772-9178-b90531ff686e"/>
+    <listType typeId="168eb614-404b-4c4b-bdc4-f2481eff449a" valueTypeId="bbe64921-428a-4d15-a14c-d44b53069290"/>
+    <managerType typeId="86421394-d9b4-40f8-bdc3-d071b0fe5118" valueTypeId="04b9bc63-311b-4bee-8c34-56bf87d83b74"/>
+    <recordSetType typeId="36262a67-ea39-4a53-96f5-34a62892a425" valueTypeId="ebc1ca5b-fbfa-4c3f-bc6b-0425c653ae2a"/>
+    <recordKeyType typeId="02a15968-dbd1-4af1-b6cd-873172894efd" valueTypeId="1d830c41-a8de-4b1c-affa-a22aac7da66e"/>
+    <recordType typeId="f6bdf971-8a1c-4c24-81d9-7aca8cb78f99" valueTypeId="53387862-0a7c-4d5f-a7cf-14145adc542c"/>
+  </producedTypes>
+  <name>Калории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="732065ad-3abd-4a90-88eb-97b451638e38">
+    <name>КоличествоКалорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество калорий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1735b88f-7985-42e5-b394-9649ab582607">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f5878542-f19d-49b8-8803-84d24653e9e0">
+    <name>ВремяДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВремяДня</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42b57a4e-145b-4283-b8d3-0926af89718d">
+  <producedTypes>
+    <selectionType typeId="48fd13ba-c762-49de-8ea6-fa8cad2280bb" valueTypeId="37883437-d5fa-4e4e-8278-a4ee9a1a5edf"/>
+    <listType typeId="b47eaede-0a5a-414e-a333-a8c381b244aa" valueTypeId="5018df1d-720d-41cc-a7a4-3caadb7a774a"/>
+    <managerType typeId="f346fbd1-078b-4547-a369-d186a15a219a" valueTypeId="c11addfa-50e8-472e-91a5-3c8e879ac83a"/>
+    <recordSetType typeId="51a3e21a-5e53-427d-bdb1-788683619679" valueTypeId="0314f604-990e-4afb-85c3-30b2c5116352"/>
+    <recordKeyType typeId="5a5b84a2-8694-48ff-9e57-4612b1ba5a01" valueTypeId="7613bf9a-eb11-4af1-8b6c-8814dc9a13d8"/>
+    <recordType typeId="3d8f0be5-0b6b-48f8-9011-fa15bfdd8b1f" valueTypeId="86ac86ce-88ae-47a1-82d0-c5f19989abad"/>
+    <recordManagerType typeId="1dd2932f-1046-43e0-b275-9fe3177443b2" valueTypeId="333561c1-cc3d-4644-a5af-49ff11c5fc34"/>
+  </producedTypes>
+  <name>Вес</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вес</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Вес.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6e02f983-83e8-47a1-827c-224ef137dfe1">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="37728c2e-9cdc-4274-9abc-c0e87b3b9e9a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

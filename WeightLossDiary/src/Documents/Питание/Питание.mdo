@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29e8c1e8-1218-43fb-a575-c35aed6a44d1">
+  <producedTypes>
+    <objectType typeId="eb43a02f-4da7-48af-8605-08a6f15584f9" valueTypeId="823d6cbc-24fa-4f41-b598-b2755f21d4b2"/>
+    <refType typeId="cdd589c3-a401-4b75-9097-b8bf3ca89177" valueTypeId="a741b9b5-6715-4c21-9b0f-fcabff0ff16f"/>
+    <selectionType typeId="2bb219bf-3a79-46db-8a19-80a3cef6ff38" valueTypeId="e1695dab-879d-4be7-ba6c-90f4b66b5c1b"/>
+    <listType typeId="cc795e3f-d73f-4c6b-bbd9-effba010fe1b" valueTypeId="527ac8c1-688e-441f-b97a-7a52887282bb"/>
+    <managerType typeId="135e63da-b985-445e-838e-3295bf617eb5" valueTypeId="4135efb6-4ef3-488b-b8c9-56afad5ce850"/>
+  </producedTypes>
+  <name>Питание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Питание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Питание.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Питание.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Питание.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.Калории</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a24d1cdf-a007-4e29-afb0-98528518ed29">
+    <name>ВремяДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВремяДня</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dbbf187-5fa4-4177-81a2-434e4732e6af">
+    <name>Калории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калории</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6d10d626-d921-4c15-befa-5a4d8c2445c0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04ce8325-f68f-415b-90dc-2e2356a8dc5b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="37346e30-c48e-4f18-9dae-a82803b02f3b">
+    <producedTypes>
+      <objectType typeId="c3c0ab04-b2ad-4585-8d1c-1071e769d308" valueTypeId="baee7677-33c4-4278-b7e5-a9692acf56d9"/>
+      <rowType typeId="9566176d-c87e-4a07-a45b-de5048953c51" valueTypeId="11849ac9-3eac-462d-9dfc-1b45d6edc3a6"/>
+    </producedTypes>
+    <name>ТаблицаПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица питания</value>
+    </synonym>
+    <attributes uuid="b46ed480-b75c-4758-b9f7-70c5648ca4f7">
+      <name>Продукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a8daa815-975d-49de-b349-3e07eef47017">
+      <name>КалорийностьПродукта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Калорийность продукта</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd0d0e31-1066-4325-9a89-ff76be706286">
+      <name>Масса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Масса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05471e55-401a-432d-8372-524d5f2c79f9">
+      <name>КоличествоКалорий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество калорий</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ab9e947-9da4-4f6e-a866-2e02d4603b6d">
+  <producedTypes>
+    <refType typeId="8c8cbc5e-6c73-4d81-b74c-49c9742355c0" valueTypeId="a822a1f3-aca2-471b-9114-34b1f5277b59"/>
+    <listType typeId="ce8553b5-c54d-4de5-b8cf-1c1ad8cf0b8e" valueTypeId="e7875d2a-a7f6-4dfc-a450-bf0b3cab133b"/>
+    <managerType typeId="c5c55915-b42b-41b9-962d-76af6a1589b6" valueTypeId="02bdbd2a-d0a4-4dba-9eb4-5912b4f8bbad"/>
+  </producedTypes>
+  <name>ВремяДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время дня</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f1c17db-70bf-4d78-8373-4286aff5fc70">
+    <name>Завтрак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завтрак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45c71f67-c64d-4cc5-b339-0baa8b7fbe4e">
+    <name>Обед</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обед</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="539b5e78-0805-48f9-b569-1a1c31597963">
+    <name>Ужин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ужин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77bcd06d-9977-42be-8591-1a25171673d8">
+    <name>Перекус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перекус</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
