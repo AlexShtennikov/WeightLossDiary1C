@@ -7,7 +7,7 @@
   <name>ДневникПитанияГоризонт</name>
   <synonym>
     <key>ru</key>
-    <value>Дневник питания горизонт</value>
+    <value>Дневник питания(Горизонтальный)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ДневникПитанияГоризонт.Template.Макет</mainDataCompositionSchema>

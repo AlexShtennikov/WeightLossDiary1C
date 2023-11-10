@@ -7,7 +7,7 @@
   <name>ДневникПитанияВертикал</name>
   <synonym>
     <key>ru</key>
-    <value>Дневник питания вертикал</value>
+    <value>Дневник питания(Вертикальный)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ДневникПитанияВертикал.Template.Макет</mainDataCompositionSchema>
